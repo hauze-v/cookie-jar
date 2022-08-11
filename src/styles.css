@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: cookie;
+  src: url(assets/Fonts/CookieDough-2YRo.ttf);
+}
+
+/* CSS Variables */
+:root {
+  --primary-brown: #84563C;
+  --secondary-brown: #D9BE91;
+  --tertiary-brown: #E7CE96;
+  --four-brown: #EEE0B1;
+}
