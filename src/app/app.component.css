@@ -1,9 +1,33 @@
+/* Navigation Bar */
 .navbar-brand {
   font-family: cookie;
-  font-size: 32px;
+  font-size: 45px;
+}
+
+#logo {
+  color: #5b1a10;
+}
+
+.sign-up-button {
+  color: #fff;
+  background-color: #5b1a10;
+  border-color: transparent;
+}
+.sign-up-button:hover {
+  background-color: var(--secondary-brown);
+  /* color: grey; */
 }
 
 /* Hero Section */
 #cookie-jar-hero {
-  border-radius: 10px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+/* Cookie Jar Description Section */
+#cookie-jar-desc {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
