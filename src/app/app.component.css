@@ -26,8 +26,12 @@
 }
 
 /* Cookie Jar Description Section */
-#cookie-jar-desc {
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#cookie-jar-desc-content {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
 }

@@ -11,3 +11,7 @@
   --four-brown: #EEE0B1;
 }
 
+/* Global Styles */
+.image-border {
+  border-radius: 10px;
+}
