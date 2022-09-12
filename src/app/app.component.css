@@ -31,18 +31,13 @@
   grid-template-columns: 1fr 1fr;
 }
 
-#cookie-jar-desc {
+.flex {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-/* #cookie-jar-desc figure img{
-  float: right;
-} */
-
-
-#cookie-jar-desc-content {
+#cookie-jar-content {
   display: flex;
   align-items: center;
   width: 50%;
