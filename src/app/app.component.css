@@ -31,7 +31,23 @@
   grid-template-columns: 1fr 1fr;
 }
 
+#cookie-jar-desc {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* #cookie-jar-desc figure img{
+  float: right;
+} */
+
+
 #cookie-jar-desc-content {
   display: flex;
   align-items: center;
+  width: 50%;
+}
+
+.medium-image {
+  width: 500px;
 }
